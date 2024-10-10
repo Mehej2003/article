@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Article </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url('images.jpeg');
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 500px;
+      padding: 15px;
+      border-radius: 5px;
+      background-color:;
+      text-align:center;
+      border: 1px solid #ccc; 
+    }
+    h1 {
+      margin: 15px 0;
+      background-color: sandybrown;
+      color: yellow;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    p {
+      margin: 10px 0;
+      border: 1px solid #ccc; 
+      padding: 10px; 
+    }
+    input {
+      margin: 5px 0;
+      height: 35px;
+      padding: 7px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+    button {
+      height: 35px;
+      margin: 5px 0;
+      background-color: skyblue;
+      border: none;
+      border-radius: 5px;
+      color: #333;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:focus {
+      outline: none;
+    }
+    button:hover {
+      background-color: #333;
+      color: hotpink;
+    }
+    img {
+      width: 80%; 
+      height: auto; 
+      margin: 20px; 
+      border: 5px solid #ccc;
+    
+   
+  </style>
+</head>
+<body>
+ 
+  
+  <div id="authPage" class="auth-page">
+  
+    <div class="auth-content">
+  
+      <h2 id="formTitle">Login</h2>
+  
+      <form id="authForm" onsubmit="return handleAuth(event)">
+  
+        <input type="text" id="username" placeholder="Username" required><br>
+  
+        <input type="password" id="password" placeholder="Password" required><br>
+  
+        <button type="submit">Submit</button>
+  
+        <p id="toggleAuth">Don't have an account? <a href="#" onclick="toggleAuthForm()">Sign Up</a></p>
+  
+      </form>
+  
+    </div>
+  
+  </div>
+  
+  <header>
+    <h1>CAMPUS HISTORY OF CTU DANAO</h1>
+  </header>
+  <main>
+    <div class="container">
+      <section>
+        <h2>ARTICLE 1</h2>
+        <img src="ctu1.png" alt="My Article Image"> 
+        <p>Cebu Technological University (CTU) Danao started in June 1949 by virtue of the Danao Municipal Council Resolution naming it “Danao Provincial High School”. It was converted into a national vocational secondary school on June 22, 1957, pursuant to Republic Act (R.A.) No. 1907. Its name was changed to Danao National Vocational School, supervised by then Cebu School of Arts and Trades in Cebu City in 1958. </p>
+      </section>
+      <section>
+        <h2>ARTICLE 2</h2>
+        <img src="ctu-2.png" alt="My Article Image">
+        <p>The school secured an eight-hectare site in Brgy. Sabang in 1963. In 1964, it acquired two buildings equipped with shop machines donated by the Colombo Aid from the Government of New Zealand. In July 1965, the school transferred to its present site in Sabang, Danao City.
+        
+        Ten years later, it was changed to Danao Vocational School which then offered the two-year trade technical curriculum. It became an extension campus of the Cebu State College of Science and Technology (CSCST) by virtue of Batas Pambansa 412 in 1983. A year after, it started to operate as an independent chartered college with a new name CSCST-College of Industrial Technology. The CSCST-CIT was administered by a Vocational School Superintendent, following the construction of the administration building and two-story building in 1988.</p>
+            </section>
+            <section>
+              <h2>ARTICLE 3</h2>
+              <img src="ctu-3.png" alt="My Article Image">
+              <p>In 1990, the secondary curriculum was phased out to focus on the higher education programs and produced its first baccalaureate degree graduates. With the effort of Dr. Bonifacio Villanueva and the support of some legislators, President Arroyo signed the bill converting the Cebu State College of Science and Technology System and its external campuses into Cebu Technological University in 2009</ Ten years later, it was changed to Danao Vocational School which then offered the two-year trade technical curriculum. It became an extension campus of the Cebu State College of Science and Technology (CSCST) by virtue of Batas Pambansa 412 in 1983. A year after, it started to operate as an independent chartered college with a new name CSCST-College of Industrial Technology. The CSCST-CIT was administered by a Vocational School Superintendent, following the construction of the administration building and two-story building in 1988.</p>
+            </section>
+            <section>
+              <h2> ARTICLE 4</h2>
+              <img src="ctu-4.png" alt="My Article Image">
+              <p>Today, CTU Danao is one of the best campuses of the University, offering 19 undergraduate and nine (9) graduate programs to over 4,156 students. Most of these programs have received Level II and Level III accreditations from the Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP) organization.</p>
+             
+
